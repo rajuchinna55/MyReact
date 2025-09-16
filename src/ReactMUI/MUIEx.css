@@ -1,0 +1,17 @@
+/* App.css */
+.active-nav {
+    font-weight: bold;
+    color: red;
+  }
+.fontsize{
+    font-size: 30px ;
+}  
+.css-1699v82-MuiTypography-root{
+    font-size: 30px;
+}
+.BrClr{
+    border-color: red;
+}
+.custom-autocomplete .MuiOutlinedInput-root {
+    border-color: gray; /* default border color */
+}

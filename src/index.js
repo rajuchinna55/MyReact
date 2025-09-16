@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { GiftProvider } from './useContextExample/UseConextExample';
+import { Provider } from 'react-redux';
+import { store } from './store';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import { ThemeProvider } from '@mui/material/styles';
+import { MUIExTheme } from './ReactMUI/MUITheme';
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <BrowserRouter>
+ <ThemeProvider theme={MUIExTheme}>
+ <Provider store={store}>
+      <GiftProvider>
+        <App />
+      </GiftProvider>
+    </Provider>
+ </ThemeProvider>
+   </BrowserRouter>
   </React.StrictMode>
 );
 

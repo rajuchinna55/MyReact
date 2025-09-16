@@ -1,0 +1,15 @@
+.box {
+    width: 200px; /* Width of the box */
+        height: 200px; /* Height of the box */
+        background-color: #f0f0f0; /* Background color */
+        border: 2px solid #333; /* Border */
+        border-radius: 10px; /* Border radius */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+        padding: 20px; /* Padding */
+        margin: 20px; /* Margin */
+        text-align: center; /* Text alignment */
+        font-size: 18px; /* Font size */
+        color: #333; /* Text color */
+        line-height: 1.5; /* Line height */
+        font-family: Arial, sans-serif; /* Font family */
+}

@@ -5,8 +5,8 @@ export const ArrayMethods = () => {
     // map
     const numbers = [1, 2, 3, 4, 5];
 
-    // filter
-    const [numice, setNumice] = useState([1, 2, 3, 4, 5]);
+    // filters
+    const [numice, setNumice] = useState([1, 2, 3, 4, 5,6]);
 
     const IceHandle =(removenum) =>{
         setNumice(numice.filter(ice => ice !== removenum ))
